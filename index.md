@@ -1,18 +1,15 @@
-title: "Hendrik Mayer"             # shows in the top-left/site title
-name: "Hendrik Mayer"
+---
+layout: splash
+title: "Hendrik Mayer"
+header:
+  overlay_color: "#ffffff"
+  overlay_filter: 0.0
+  caption: ""
+  actions:
+    - label: "CV"
+      url: "https://hmayer1.github.io/Hendrik_Mayer_CV_September_2025.pdf"
+      blank: true
+author_profile: true   # shows the profile card (name, avatar, bio, links)
+---
 
-author:
-  name: "Hendrik Mayer"
-  avatar: "/assets/images/avatar.jpg"   # add this image in step 3
-  bio: "PhD researcher in GNNs & ML."
-  location: "Ann Arbor, MI"
-  links:
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:you@umich.edu"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/hmayer1"
-    - label: "Google Scholar"
-      icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com/..."
+Welcome! I’m a PhD researcher working on graph neural networks, theory, and large-scale experimentation.
