@@ -1,5 +1,5 @@
 main:
-  - title: "About"
-    url: /about/
-  - title: "Blog"
-    url: /year-archive/
+  - title: "Home"
+    url: /
+  - title: "CV"
+    url: /cv/
