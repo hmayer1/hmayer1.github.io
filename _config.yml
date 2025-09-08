@@ -1,19 +1,18 @@
-title: "My Site"
-description: "Stuff I work on"
-url: "https://hmayer1.github.io"
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+title: "Hendrik Mayer"             # shows in the top-left/site title
+name: "Hendrik Mayer"
 
-plugins:
-  - jekyll-include-cache  # recommended by the theme
-
-# Minimal Mistakes basics
-minimal_mistakes_skin: default
-locale: en
 author:
   name: "Hendrik Mayer"
+  avatar: "/assets/images/avatar.jpg"   # add this image in step 3
+  bio: "PhD researcher in GNNs & ML."
+  location: "Ann Arbor, MI"
   links:
-    - label: GitHub
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:you@umich.edu"
+    - label: "GitHub"
       icon: "fab fa-github"
-      url: "https://github.com/<your-username>"
-
-paginate: 5
+      url: "https://github.com/hmayer1"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/..."
