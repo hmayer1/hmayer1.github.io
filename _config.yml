@@ -3,7 +3,7 @@ name: "Hendrik Mayer"
 
 author:
   name: "Hendrik Mayer"
-  avatar: "/assets/images/avatar.jpg"   # add this image in step 3
+  avatar: "/IMG_7055.HEIC"   # add this image in step 3
   bio: "PhD researcher in GNNs & ML."
   location: "Ann Arbor, MI"
   links:
