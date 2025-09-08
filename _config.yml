@@ -1,9 +1,17 @@
-title: "Hendrik Mayer"             # shows in the top-left/site title
+title: "Hendrik Mayer"    # appears in the browser tab and site header
 name: "Hendrik Mayer"
+
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
+plugins:
+  - jekyll-include-cache
+
+minimal_mistakes_skin: default
+locale: en
 
 author:
   name: "Hendrik Mayer"
-  avatar: "/IMG_7055.png"   # add this image in step 3
+  avatar: "/IMG_7055.png"   # make sure this file is in your repo root
   bio: "PhD researcher in GNNs & ML."
   location: "Ann Arbor, MI"
   links:
@@ -17,5 +25,5 @@ author:
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/hendrik-mayer-0205b8383/"
     - label: "Google Scholar"
-      icon: "ai ai-google-scholar"
+      icon: "fas fa-graduation-cap"   # reliable FA icon
       url: "https://scholar.google.com/citations?user=29INUCcAAAAJ&hl=en"
