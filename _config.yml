@@ -1,0 +1,19 @@
+title: "My Site"
+description: "Stuff I work on"
+url: "https://hmayer1.github.io"
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
+plugins:
+  - jekyll-include-cache  # recommended by the theme
+
+# Minimal Mistakes basics
+minimal_mistakes_skin: default
+locale: en
+author:
+  name: "Hendrik Mayer"
+  links:
+    - label: GitHub
+      icon: "fab fa-github"
+      url: "https://github.com/<your-username>"
+
+paginate: 5
