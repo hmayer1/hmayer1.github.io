@@ -29,7 +29,7 @@ defaults:
 
 author:
   name: "Hendrik Mayer"
-  avatar: "/assets/images/DSC_0834.JPG"   # make sure this file is in your repo root
+  avatar: "/assets/images/DSC_0834_square.jpeg"   # make sure this file is in your repo root
   bio: "PhD researcher in GNNs & ML."
   location: "Ann Arbor, MI"
   email: "htmayer@umich.edu"
