@@ -9,3 +9,22 @@
   max-width: 200px;   // default is ~150px
   border-radius: 50%; // keep it circular
 }
+
+/* Disable grayscale/dimming on images */
+.author__avatar img,
+.page__content img,
+.entry-content img {
+  filter: none !important;
+  -webkit-filter: none !important;
+  opacity: 1 !important;
+  transition: none !important;
+}
+
+/* Also ensure hover doesn’t change it back */
+.author__avatar a:hover img,
+.page__content a:hover img,
+.entry-content a:hover img {
+  filter: none !important;
+  -webkit-filter: none !important;
+  opacity: 1 !important;
+}
