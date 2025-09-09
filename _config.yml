@@ -9,8 +9,39 @@ plugins:
 minimal_mistakes_skin: default
 locale: en
 
+# Site settings
+site:
+  logo: "/assets/images/DSC_0834.JPG"
+  name: "Hendrik Mayer"
+  description: "PhD researcher in GNNs & ML."
+  url: "https://hmayer1.github.io"
+  baseurl: ""
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
 author:
   name: "Hendrik Mayer"
   avatar: "/assets/images/DSC_0834.JPG"   # make sure this file is in your repo root
   bio: "PhD researcher in GNNs & ML."
   location: "Ann Arbor, MI"
+  email: "hendrikmayer@umich.edu"
+  links:
+    - label: "CV"
+      icon: "fas fa-file-pdf"
+      url: "/Hendrik_Mayer_CV_September_2025.pdf"
+
+# Site navigation
+navigation:
+  main:
+    - title: "Home"
+      url: /
+    - title: "CV"
+      url: /Hendrik_Mayer_CV_September_2025.pdf
