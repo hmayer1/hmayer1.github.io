@@ -1,0 +1,11 @@
+---
+# Only the triple dashes are needed here; no layout
+---
+
+@import "minimal-mistakes";   // import the theme styles
+
+// override avatar size
+.author__avatar img {
+  max-width: 200px;   // default is ~150px
+  border-radius: 50%; // keep it circular
+}
