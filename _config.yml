@@ -8,17 +8,12 @@ author_profile: true
 plugins:
   - jekyll-include-cache
 
-# Custom CSS
-sass:
-  style: compressed
-  sass_dir: assets/css
-
 minimal_mistakes_skin: default
 locale: en
 
 # Site settings
 site:
-  logo: "/assets/images/DSC_0834.JPG"
+  logo: "/assets/images/DSC_0834_square.jpeg"
   name: "Hendrik Mayer"
   description: "PhD researcher in GNNs & ML."
   baseurl: ""
