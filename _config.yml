@@ -13,7 +13,6 @@ locale: en
 
 # Site settings
 site:
-  logo: "/assets/images/DSC_0834_square.jpeg"
   name: "Hendrik Mayer"
   description: "PhD researcher in GNNs & ML."
   baseurl: ""
