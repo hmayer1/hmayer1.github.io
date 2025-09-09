@@ -3,6 +3,9 @@ name: "Hendrik Mayer"
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
+# Enable author profile by default
+author_profile: true
+
 plugins:
   - jekyll-include-cache
 
@@ -38,10 +41,3 @@ author:
       icon: "fas fa-file-pdf"
       url: "/Hendrik_Mayer_CV_September_2025.pdf"
 
-# Site navigation
-navigation:
-  main:
-    - title: "Home"
-      url: /
-    - title: "CV"
-      url: /Hendrik_Mayer_CV_September_2025.pdf
