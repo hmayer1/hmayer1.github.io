@@ -32,7 +32,6 @@ author:
   avatar: "/assets/images/DSC_0834_square.jpeg"   # make sure this file is in your repo root
   bio: "PhD researcher in GNNs & ML."
   location: "Ann Arbor, MI"
-  email: "htmayer@umich.edu"
   links:
     - label: "Email"
       icon: "fas fa-envelope"
