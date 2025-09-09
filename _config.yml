@@ -14,7 +14,7 @@ locale: en
 # Site settings
 site:
   name: "Hendrik Mayer"
-  description: "PhD researcher in GNNs & ML."
+  description: "PhD researcher in GNNs & ML"
   baseurl: ""
 
 # Defaults
