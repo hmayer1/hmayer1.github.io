@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Hendrik Mayer"
+title: "About Me"
 author_profile: true   # shows the profile card (name, avatar, bio, links)
 ---
 
