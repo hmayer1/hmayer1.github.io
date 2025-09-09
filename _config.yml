@@ -9,6 +9,11 @@ author_profile: true
 plugins:
   - jekyll-include-cache
 
+# Custom CSS
+sass:
+  style: compressed
+  sass_dir: assets/css
+
 minimal_mistakes_skin: default
 locale: en
 
