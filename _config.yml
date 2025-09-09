@@ -35,9 +35,16 @@ author:
   avatar: "/assets/images/DSC_0834.JPG"   # make sure this file is in your repo root
   bio: "PhD researcher in GNNs & ML."
   location: "Ann Arbor, MI"
-  email: "hendrikmayer@umich.edu"
+  email: "htmayer@umich.edu"
   links:
-    - label: "CV"
-      icon: "fas fa-file-pdf"
-      url: "/Hendrik_Mayer_CV_September_2025.pdf"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:htmayer@umich.edu"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/hmayer1"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/hendrik-mayer-0205b8383/"
+
 
