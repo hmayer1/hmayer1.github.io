@@ -17,7 +17,7 @@ site:
   logo: "/assets/images/DSC_0834.JPG"
   name: "Hendrik Mayer"
   description: "PhD researcher in GNNs & ML."
-  url: "https://hmayer1.github.io"
+  url: "https://hendrik-mayer.github.io"
   baseurl: ""
 
 # Defaults
