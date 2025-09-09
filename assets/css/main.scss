@@ -1,47 +1,28 @@
 ---
-# required front matter
+# required front matter so Jekyll compiles this file
 ---
 
 /* Load skin first, then theme */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Bigger circular avatar (optional) */
+/* 👇 Strong overrides (avatar + all content images) */
+html body .author__avatar,
+html body .author__avatar a,
+html body .author__avatar img,
+html body .author__avatar a img,
+html body .author__avatar a:hover img,
+html body .page__content img,
+html body .page__content a img,
+html body .page__content a:hover img,
+html body .entry-content img,
+html body .entry-content a img,
+html body .entry-content a:hover img {
+  filter: none !important;
+  -webkit-filter: none !important;
+  opacity: 1 !important;
+  transition: none !important;
+}
+
+/* (optional) bigger avatar */
 .author__avatar img { max-width: 200px; border-radius: 50%; }
-
-/* 🔧 Kill grayscale/dim on ALL images, including hover */
-img,
-a img,
-a:hover img,
-.author__avatar img,
-.author__avatar a img,
-.author__avatar a:hover img,
-.page__content img,
-.page__content a img,
-.page__content a:hover img,
-.entry-content img,
-.entry-content a img,
-.entry-content a:hover img,
-.archive__item-teaser img,
-.archive__item-teaser a img,
-.archive__item-teaser a:hover img,
-.site-logo img,
-.greedy-nav a img,
-.greedy-nav a:hover img {
-  filter: none !important;
-  -webkit-filter: none !important;
-  opacity: 1 !important;
-  transition: none !important;
-}
-
-/* Some skins apply on the link itself — neutralize that too */
-.author__avatar a,
-.author__avatar a:hover,
-.page__content a:hover,
-.entry-content a:hover,
-.greedy-nav a:hover {
-  filter: none !important;
-  -webkit-filter: none !important;
-  opacity: 1 !important;
-  transition: none !important;
-}
