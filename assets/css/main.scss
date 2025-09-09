@@ -3,6 +3,7 @@
 ---
 
 @import "minimal-mistakes";   // import the theme styles
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // ← loads 'dirt
 
 // override avatar size
 .author__avatar img {
