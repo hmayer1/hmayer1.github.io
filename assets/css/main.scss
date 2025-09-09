@@ -1,32 +1,47 @@
 ---
-# Only the triple dashes are needed here; no layout
+# required front matter
 ---
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // ← loads 'dirt
-@import "minimal-mistakes";   // import the theme styles
+/* Load skin first, then theme */
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
+/* Bigger circular avatar (optional) */
+.author__avatar img { max-width: 200px; border-radius: 50%; }
 
-// override avatar size
-.author__avatar img {
-  max-width: 200px;   // default is ~150px
-  border-radius: 50%; // keep it circular
-}
-
-/* Disable grayscale/dimming on images */
+/* 🔧 Kill grayscale/dim on ALL images, including hover */
+img,
+a img,
+a:hover img,
 .author__avatar img,
+.author__avatar a img,
+.author__avatar a:hover img,
 .page__content img,
-.entry-content img {
+.page__content a img,
+.page__content a:hover img,
+.entry-content img,
+.entry-content a img,
+.entry-content a:hover img,
+.archive__item-teaser img,
+.archive__item-teaser a img,
+.archive__item-teaser a:hover img,
+.site-logo img,
+.greedy-nav a img,
+.greedy-nav a:hover img {
   filter: none !important;
   -webkit-filter: none !important;
   opacity: 1 !important;
   transition: none !important;
 }
 
-/* Also ensure hover doesn’t change it back */
-.author__avatar a:hover img,
-.page__content a:hover img,
-.entry-content a:hover img {
+/* Some skins apply on the link itself — neutralize that too */
+.author__avatar a,
+.author__avatar a:hover,
+.page__content a:hover,
+.entry-content a:hover,
+.greedy-nav a:hover {
   filter: none !important;
   -webkit-filter: none !important;
   opacity: 1 !important;
+  transition: none !important;
 }
