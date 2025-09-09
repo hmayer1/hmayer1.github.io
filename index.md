@@ -2,7 +2,7 @@
 layout: splash
 title: "Hendrik Mayer"
 header:
-  overlay_image: "/assets/images/IMG_7055.jpg"
+  overlay_image: "/assets/images/DSC_0834.JPG"
   overlay_color: "#ffffff"
   overlay_filter: 0.2
   caption: ""
