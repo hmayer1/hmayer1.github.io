@@ -1,10 +1,6 @@
 ---
-layout: splash
+layout: single
 title: "Hendrik Mayer"
-header:
-  overlay_color: "#ffffff"
-  overlay_filter: 0.0
-  caption: ""
 author_profile: true   # shows the profile card (name, avatar, bio, links)
 ---
 
