@@ -11,7 +11,7 @@ locale: en
 
 author:
   name: "Hendrik Mayer"
-  avatar: "/DSC_0834.jpg"   # make sure this file is in your repo root
+  avatar: "/DSC_0834.JPG"   # make sure this file is in your repo root
   bio: "PhD researcher in GNNs & ML."
   location: "Ann Arbor, MI"
   links:
