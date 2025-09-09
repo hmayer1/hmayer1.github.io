@@ -2,8 +2,9 @@
 # Only the triple dashes are needed here; no layout
 ---
 
-@import "minimal-mistakes";   // import the theme styles
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // ← loads 'dirt
+@import "minimal-mistakes";   // import the theme styles
+
 
 // override avatar size
 .author__avatar img {
