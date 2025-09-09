@@ -1,7 +1,7 @@
 title: "Hendrik Mayer"    # appears in the browser tab and site header
 name: "Hendrik Mayer"
 
-remote_theme: "hendrik-mayer/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 # Enable author profile by default
 author_profile: true
@@ -17,7 +17,7 @@ site:
   logo: "/assets/images/DSC_0834.JPG"
   name: "Hendrik Mayer"
   description: "PhD researcher in GNNs & ML."
-  url: "https://hendrik-mayer.github.io"
+  url: "https://hmayer1.github.io"
   baseurl: ""
 
 # Defaults
